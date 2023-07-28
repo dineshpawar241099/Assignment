@@ -1,0 +1,28 @@
+<!-- <p>register works!</p> -->
+<div class="container" >
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Register</h1>
+                    <h6>Register New Product..!</h6>                    
+                </div>
+                <form >
+                    <form >
+                        <div class="mb-3">
+                            <div class="mb-3">
+                                <label  class="form-label" >Name</label>
+                                <input type="text"  class="form-control" autocomplete="off" [(ngModel)]="info.name" name="name">
+                              </div>      
+                        </div>    
+                                         
+                    
+                        <td><button type="submit" class="btn btn-primary mb-2" (click)="onSubmit()" routerLink="/showdata" >Register</button></td>
+                       <td> <button type="submit" class="btn btn-primary mb-2 btn-align-right" (click)="onSubmit()" routerLink="/showdata"  >Cancel</button></td>
+                      </form>           
+             </form>
+            </div>
+        </div>
+    </div>
+</div> 
+
